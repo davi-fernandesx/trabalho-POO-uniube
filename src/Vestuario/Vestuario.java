@@ -37,8 +37,7 @@ public class Vestuario {
     //sobrescrevendo o toString para trazer as informaçoes do vestuario
     @Override
     public  String toString(){
-        return "{" + "tipo='" + Tipo + '\'' + ", marca='" + Marca + '\'' + ", tamanho='" + Tamanho + '\'' + ", valor= R$" + String.format("%.2f", Valor) + '}';
-
+        return "tipo: " + getTipo() + "\t\nmarca: " + getMarca() + "\t\ntamanho: " + getTamanho() + "\t\nvalor: " + getValor();
 
     }
 }

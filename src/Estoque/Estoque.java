@@ -29,7 +29,7 @@ public class Estoque {
     @Override
     public  String toString(){
 
-        return "Estoque\n {" +  '\'' + ",\n quantidade= '" + Quantidade  + '\'' + "\n \tVestuario: \n' \t\t" + vestuario + '}';
+        return "quantidade: "+ getQuantidade() + "\n vestuario:\n " + getVestuario();
 
     }
 }
